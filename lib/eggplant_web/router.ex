@@ -17,6 +17,16 @@ defmodule EggplantWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+
+    get "/gallery/writing", PageController, :index
+    get "/gallery/watercolor", PageController, :index
+    get "/gallery/acrylic", PageController, :index
+
+    get "/projects/kickstarter", PageController, :index
+    get "/projects/artshows", PageController, :index
+    get "/projects/spokenword", PageController, :index
+
+    get "/inquiries", PageController, :index
   end
 
   # Other scopes may use custom stacks.

@@ -20,7 +20,7 @@ import "phoenix_html"
 
 // import socket from "./socket"
 
-import run from "./eggplant";
+import run from "./components/Eggplant";
 
 function init() {
   let root = document.getElementById('root');
