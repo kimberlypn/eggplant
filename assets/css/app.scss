@@ -1,1 +1,30 @@
 @import "bootstrap";
+
+/*********************************** NAVBAR ***********************************/
+.navbar {
+  background-color: #8da3dc;
+  border-radius: 10px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.dropdown-menu {
+  background-color: #8da3dc;
+  text-align: center;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #b7c8f4;
+  color: white;
+}
+/******************************** END OF NAVBAR *******************************/
