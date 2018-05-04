@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Navigation from './Navigation';
+import Banner from './Banner';
 import Home from './Home';
 import Writing from './Writing';
 import Watercolor from './Watercolor';
@@ -14,7 +14,7 @@ import Inquiries from './Inquiries';
 export default function Main(props) {
   return (
     <Fragment>
-      <Navigation />
+      <Banner />
       <Route path="/" exact={true} render={() =>
         <Home />
       } />
