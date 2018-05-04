@@ -1,9 +1,8 @@
-
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'reactstrap';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Navigation from './Navigation';
+import Main from './Main';
 
 export default function run(root) {
   ReactDOM.render(<Eggplant />, root);
@@ -16,7 +15,11 @@ class Eggplant extends React.Component {
 
   render() {
     return (
-      <Navigation />
+      <Router>
+        <Fragment>
+          <Main />
+        </Fragment>
+      </Router>
     );
   }
 }
