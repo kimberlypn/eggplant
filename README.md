@@ -1,4 +1,4 @@
-# Eggplant
+# eggplant
 
 My friend, who likes to go by Eggplant, wanted a website to showcase her artwork. 
 
